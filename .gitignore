@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Data files (CRITICAL)
+*.csv
+*.json
+*.geojson
+*.parquet
+*.xlsx
+
+# Images / reports
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Aadhaar-generated large files
+AadhaarRiskEnrolment*
+aadhar_risk_features*
+cleaned_*
+processed_*
+
+# OS / editor
+.DS_Store
+.vscode/
